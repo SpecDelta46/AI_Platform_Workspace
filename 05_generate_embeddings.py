@@ -52,5 +52,5 @@ def build_vector_space():
     df.to_parquet(OUTPUT_FILE, engine="pyarrow",index=False)
     print(f"\n[+] Data sudah siap digunakan untuk pencarian! Tersimpan di: {OUTPUT_FILE}")
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     build_vector_space()
