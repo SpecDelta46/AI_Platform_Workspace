@@ -1,0 +1,8 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+.venv/ 
+__pycache__/ 
+
+#Mengabaikan folder data dan model (kita akan kelola ini nanti) 
+data/ 
+models/ 
+.env
