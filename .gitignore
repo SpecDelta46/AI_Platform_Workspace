@@ -3,6 +3,6 @@
 __pycache__/ 
 
 #Mengabaikan folder data dan model (kita akan kelola ini nanti) 
-data/ 
+#data/ 
 models/ 
 .env
